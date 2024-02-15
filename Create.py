@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from werkzeug.security import generate_password_hash
 import datetime
 
-MONGO_URI=['mongodb+srv://novita:1234567890aBc@cluster.aoqznyg.mongodb.net/?retryWrites=true&w=majority']
+MONGO_URI=['mongodb+srv://<username>:<password>@cluster.aoqznyg.mongodb.net/?retryWrites=true&w=majority']
 
 client = MongoClient(MONGO_URI)
 db = client['Ejemplo']
