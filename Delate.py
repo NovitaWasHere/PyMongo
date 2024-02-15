@@ -1,7 +1,7 @@
-from pymongo import MongoClient
+mefrom pymongo import MongoClient
 import pprint
 
-MONGO_URI=['mongodb+srv://novita:1234567890aBc@cluster.aoqznyg.mongodb.net/?retryWrites=true&w=majority']
+MONGO_URI=['mongodb+srv://<username>:<password>@cluster.aoqznyg.mongodb.net/?retryWrites=true&w=majority']
 
 client = MongoClient(MONGO_URI)
 db = client['Ejemplo']
